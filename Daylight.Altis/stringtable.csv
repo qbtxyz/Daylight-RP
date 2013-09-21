@@ -1,0 +1,134 @@
+/*
+	Description:	Stringtable for Daylight
+	Author:			qbt
+*/
+
+Language,										English
+
+// Mission load
+STR_ONLOADNAME,									"Daylight"
+STR_ONLOADMISSION,								"<t size=""1.1"" color=""#75C2E6"">Daylight</t><t size=""0.5"">Alpha</t><br/><br/><t color=""#75C2E6"">Daylight</t> is open source and it is licensed under the CC BY-NC-SA 3.0-license. Anyone is free to view, edit or copy the code under this license."
+STR_ONLOADINTRO,								"$STR_ONLOADMISSION"
+STR_AUTHOR,										"Daylight Dev-Team"
+
+// General
+STR_CURRENCY,									"EUR"
+STR_WEIGHT_UNIT,								"kg"
+STR_PAIDFROMINVENTORY,							"inventory"
+STR_PAIDFROMBANK,								"bank account"
+
+// MOTD seen on CharacterCreation
+STR_MOTD,										"Welcome to <t color=""#75C2E6"">Daylight</t>!"
+
+// Chat
+STR_CHAT_GLOBAL_OOC,							"Global (OOC)"
+
+// Dialogs
+// General
+STR_DIALOG_OK,									"OK"
+STR_DIALOG_CANCEL,								"Cancel"
+STR_DIALOG_CONTINUE,							"Continue"
+
+// Character creation
+STR_DIALOG_CREATE_YOUR_CHARACTER,				"Create Your Character"
+STR_DIALOG_BASIC_INFORMATION,					"Basic Information"
+STR_DIALOG_FIRST_NAME,							"First Name:"
+STR_DIALOG_LAST_NAME,							"Last Name:"
+STR_DIALOG_CHARACTER_DESCRIPTION,				"Character Description:"
+STR_DIALOG_MOTD,								"Message of the Day"
+
+// Character clothing
+STR_DIALOG_CLOTHING_WARNING,					"<t align=""center"">The changes you make here are <t color=""#ff0000"">permanent</t> until you create a new character.</t>"
+
+// New character question
+STR_DIALOG_NEWCHARACTERQUESTION,				"<t align=""center"">There is already a character with the name of<br/><br/><t color=""#ff0000"" size=""1.5"">%1</t><br/><br/>do you want to continue with this character or create a new one?<br/><br/>By creating a new character you will lose all of your progress and you will start with <t color=""#ff0000"">zero</t> money.</t>"
+STR_DIALOG_NEWCHARACTERQUESTION_CREATENEW,	"Create new"
+
+// Interaction menu
+STR_INTERACTION_MENU_TITLE,						"Interaction Menu"
+STR_INTERACTION_MENU_TARGETTOOFAR,				"The player you were interacting with is too far away."
+STR_INTERACTION_MENU_RESTRAINED_TITLE,			"Restrained"
+STR_INTERACTION_MENU_UNRESTRAINED_TITLE,		"Unrestrained"
+STR_INTERACTION_MENU_RESTRAINED,				"You have been restrained by %1 (%2)."
+STR_INTERACTION_MENU_UNRESTRAINED_BROKEFREE,	"You managed to break free from the restrains as the officer who restrained you was not looking."
+STR_INTERACTION_MENU_UNRESTRAINED,				"You have been unrestrained by %1 (%2)."
+STR_INTERACTION_MENU_ILLEGALITEMSREMOVED,		"You seized the illegal items %1 (%2) was carrying."
+STR_INTERACTION_MENU_ILLEGALITEMSREMOVEDBY,		"The illegal items you were carrying were seized by %1 (%2).";
+
+// Bank
+STR_ATM,										"ATM"
+STR_TRANSFER,									"Transfer"
+STR_ATM_MESSAGE,								"ATM Message"
+STR_ATM_MESSAGE_WITHDRAW_SUCCESS,				"You have successfully withdrawn %1%3 from your account.<br/><br/>You now have %2%3 left in your bank account."
+STR_ATM_MESSAGE_DEPOSIT_SUCCESS,				"You have successfully deposited %1%3 to your account.<br/><br/>You now have %2%3 left in your inventory."
+STR_ATM_MESSAGE_TRANSFER_SUCCESS,				"You have successfully transferred %1%3 from your account to %4.<br/><br/>You now have %2%3 left in your bank account."
+STR_ATM_MESSAGE_TRANSFER_FAIL,					"You do not have enough money to transfer that amount."
+STR_ATM_MESSAGE_TRANSFER_SUCCESS,				"You have received %1%3 to your account from %4.<br/><br/>You now have %2%3 in your bank account."
+
+// Respawn
+STR_RESPAWN,									"<t align=""center""><t size=""6"" color=""#ff0000"">You Are Dead</t><br/><br/><br/><br/><br/><br/><br/><t size=""3"" color=""#ffffff"">New Life Rule (NLR)</t><br/><br/><t size=""2"" color=""#ffffff"">Always obey NLR</t></t><br/><br/><br/><br/><br/>"
+STR_RESPAWN_IN,									"<t size=""2"" align=""center"" color=""#ffffff"">You will be able to respawn in <t color=""#faf8cc"">%1</t> seconds.</t>"
+STR_RESPAWN_READY,								"<t size=""2"" align=""center"" color=""#ffffff"">Press <t color=""#faf8cc"">spacebar</t> to respawn.</t>"
+
+// Action messages
+STR_ACTION_NO_KEYS,								"You don't have the keys for this vehicle"
+
+// Interaction menu
+STR_INTERACTIONMENU_BUTTON_JAILFOR,				"Jail for %1 minutes"
+
+// Body search
+STR_BODY_SEARCH_INVENTORY_TITLE,				"Inventory of %1 (%2)"
+STR_BODY_SEARCH_INVENTORY,						"You are viewing the inventory of %1 (%2).<br/><br/>Inventory:%3"
+
+// Trunk
+STR_TRUNK_BUTTON_TAKE,							"Take (%1%2)"
+STR_TRUNK_BUTTON_PUT,							"Put (%1%2)"
+
+// Shop
+STR_SHOP_MESSAGE_TITLE,							"Shop"
+STR_SHOP_MESSAGE_NOMONEY,						"You don't have enough money to buy this much of this item. You still need %1%2 more."
+STR_SHOP_MESSAGE_BUY_SUCCESS,					"You successfully bought %2 %1 from the %3 for %4%5." // %1 = item name, %2 = item amount, %3 - shop name, %4 - money spent, %5 - currency name
+STR_SHOP_MESSAGE_SELL_SUCCESS,					"You successfully sold %2 %1 to the %3 for %4%5." // %1 = item name, %2 = item amount, %3 - shop name, %4 - money profited, %5 - currency name
+STR_SHOP_MESSAGE_SELL_CANTSELL,					"You cant sell this kind of item (%1) to the %2."
+STR_SHOP_BUTTON_BUY,							"Buy (%1%2) (%3%4)"
+STR_SHOP_BUTTON_SELL,							"Sell (%1%2) (%3%4)"
+
+// Ticketing
+STR_TICKET_QUESTION_MESSAGE,					"%1 (%2) has given you a ticket of %3%4:<br/><br/>%5<br/><br/>Do you wish to pay this ticket?"
+
+// Jail
+STR_JAIL_MESSAGE_TITLE,							"Jail"
+STR_JAIL_MESSAGE_JAILED,						"You have been jailed by %1 (%2).<br/><br/>You have %3 minutes and %4 seconds left of your sentence."
+STR_JAIL_MESSAGE_RELEASED,						"You were released from the jail after serving your sentence."
+
+// Impound
+STR_IMPOUND_OFFICER_MESSAGE_TITLE,				"Impound Lot"
+STR_IMPOUND_OFFICER_MESSAGE_PAID,				"You have paid %1%2 to retreive your vehicle from the impound lot, the money was paid from your %3."
+STR_IMPOUND_OFFICER_MESSAGE_NOMONEY,			"You don't have enough money to retreive your vehicle from the impound lot."
+STR_IMPOUND_OFFICER_DIALOG_NOVEHICLES,			"No vehicles to show."
+
+// License Seller
+STR_LICENSE_SELLER_MESSAGE_TITLE,				"Licenses"
+STR_LICENSE_SELLER_MESSAGE_PAID,				"You have paid %1%2 and you have received your %3, the money was paid from your %4."
+STR_LICENSE_SELLER_MESSAGE_NOMONEY,				"You don't have enough money to buy this license."
+STR_LICENSE_SELLER_OWNSALLLICENSES,				"You already own these licenses."
+
+// Paycheck
+STR_PAYCHECK_MESSAGE_TITLE,						"Paycheck"
+STR_PAYCHECK_MESSAGE_RECEIVED,					"You have received your paycheck of %1%2, you currently have %3%2 in your bank account.<br/><br/>Your next paycheck will be paid in around %4 minutes."
+
+// Shout
+STR_SHOUT,										"** (Shout) %1: %2"
+
+// Example item
+STR_ITEM_10000,									"Euros"
+STR_ITEM_10000_DESC,							"Money used for trading."
+STR_ITEM_10000_SCRIPT,							""
+STR_ITEM_10000_WEIGHT,							"0.0001"
+
+STR_ITEM_10001,									"Test Item"
+STR_ITEM_10001_DESC,							"Test item that can be bought/sold."
+STR_ITEM_10001_SCRIPT,							""
+STR_ITEM_10001_WEIGHT,							"1"
+STR_ITEM_10001_PRICE,							"100"
+STR_ITEM_10001_PROFIT,							"50"
