@@ -5,7 +5,7 @@ Daylight is a role-playing platform for Bohemia Interactive's ArmA 3.
 
 ## What still needs to be done
 Daylight RP works as a framework for your own projects, what still needs to be done is up to you. However, here are some key functionalities missing from Daylight RP:
-* Replace old PVEH's (*daylight_fnc_networkExecGlobal*, *daylight_fnc_networkExecServer*, *daylight_fnc_networkExecClient*, *daylight_fnc_networkExecPlayer*) that are used in inventory functions. **These outdated PVEH's allow for easy remote code execution.**
+* Replace old PVEH's (*daylight_fnc_networkExecGlobal, daylight_fnc_networkExecServer, daylight_fnc_networkExecClient, daylight_fnc_networkExecPlayer*) that are used in inventory functions. **These outdated PVEH's allow for easy remote code execution.**
 * Rethink & code inventory drop/take/give functions.
 * Keychain (there are already functions for this, but no UI)
 
