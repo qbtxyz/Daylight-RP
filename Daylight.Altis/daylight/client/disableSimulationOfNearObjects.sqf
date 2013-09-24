@@ -1,5 +1,5 @@
 /*	
-	Description: 	Disables damage and simulation of near buildings and objects.
+	Description: 	Disables damage and simulation of near buildings and objects. This will help in MP performance as broken buildings / objects wont need to be synced on client connect.
 	Author:			qbt
 */
 

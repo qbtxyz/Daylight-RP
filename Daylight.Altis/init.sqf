@@ -115,7 +115,7 @@ setTerrainGrid daylight_cfg_iTerrainGrid;
 setViewDistance daylight_cfg_iViewDistanceTerrain;
 setObjectViewDistance daylight_cfg_iViewDistanceObjects;
 setShadowDistance daylight_cfg_iViewDistanceShadow;
-setDetailMapBlendPars [daylight_cfg_iDetailMapDistance, daylight_cfg_iDetailMapDistance];
+setDetailMapBlendPars [daylight_cfg_iDetailMapDistance, daylight_cfg_iDetailMapDistance * 1.5];
 setDate daylight_cfg_arrDateStart;
 
 // Create respawn markers to move players in to a safe-area.
