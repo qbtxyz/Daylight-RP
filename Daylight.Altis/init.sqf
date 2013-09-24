@@ -3,6 +3,9 @@
 	Author:			qbt
 */
 
+// Protection against Steam Workshop.
+if (isSteamMission) exitWith {};
+
 /* Config */
 // List of scripts that we need to run. (both, client, server)
 _arrScriptsShared		= [
